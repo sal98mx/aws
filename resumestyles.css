@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+#introText {
+    width: auto;
+    text-align: justify;
+    text-indent: 70px;
+    padding: 30px;
+    padding-top: 200px;
+    font-family: monospace;
+    font-size: 1.6rem;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+#footer {
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="resumestyles.css">
+  <title>Salvador Sandoval</title>
+</head>
+<body>
+  <!--bootstrap Nav bar-->
+  <nav id="mainNavbar" class="navbar navbar-inverse navbar-expand-md py-0 fixed-top">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="https://github.com/sal98mx" class="nav-link">Github</a>
+              </li>
+              <li class="nav-item">
+                  <a href="salresumeoffical.pdf" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item">
+                  <a href="" class="nav-link">Web Projects</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!---->
+
+<div id = "introText">
+<p>I am a developer based in Los Angeles, California. I am currently pursuing a degree in Computer Science.
+I am strong with programming with C languages. I also love to solve problems using web technologies.
+</p>
+</div>
+
+<!--get in touch div-->
+<div id = "footer">
+<h4>Want to get in touch?</h4>
+<a href = "mailto:sal98mx@hotmail.com">Send Email</a>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+            <script>
+                    $(function () {
+                        $(document).scroll(function () {
+                            var $nav = $("#mainNavbar");
+                            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                        });
+                    });
+                </script>
+</body>
+</html>
+
